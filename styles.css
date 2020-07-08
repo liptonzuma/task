@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#my-logo {
+    width: 100px;
+    padding-left: 20px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-bar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.btn {
+    margin: 1.5px 5px;
+    background-color: blue !important;
+    color: white !important;
+}
+
+
+/*------------------home banner section------------------------*/
+
+#banner {
+    background-image: linear-gradient(to bottom, darkblue, black);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+#banner h2 {
+    text-transform: capitalize !important;
+}
+
+#banner p {
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+#teacher {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#teacher p,
+h5 {
+    text-align: center;
+}
+
+#teacher a {
+    margin-left: 60px !important;
+}
+
+.img1 {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-section {
+    text-transform: capitalize;
+    text-align: center;
+    background-image: linear-gradient( 115deg, rgba(27, 27, 71, 0.8), rgba(19, 19, 100, 0.7)), url(bg1.jpg);
+    margin-top: 30px;
+    color: white;
+    padding: 2em;
+}
+
+.text-section p {
+    text-align: center;
+}
+
+#numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    color: white;
+}
+
+.text-section button {
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+}
+
+.text-section button:hover {
+    border: 2px solid white;
+}
+
+
+/*----------------------------------end section--------------------------------*/
+
+#end-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    padding: 50px;
+    background-color: black;
+}
+
+#end-section p,
+h3 {
+    color: blanchedalmond;
+}
+
+#end-section h3 {
+    font-size: 15px;
+}
+
+#end-section ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
