@@ -38,6 +38,7 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 100px;
+    height: 100vh;
 }
 
 #banner h2 {
