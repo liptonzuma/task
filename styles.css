@@ -43,6 +43,7 @@ body {
 
 #banner h2 {
     text-transform: capitalize !important;
+    padding-top: 150px;
 }
 
 #banner p {
